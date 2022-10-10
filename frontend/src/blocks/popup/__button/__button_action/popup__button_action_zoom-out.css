@@ -1,0 +1,5 @@
+@media screen and (max-width: 767px) {
+  .popup__button_action_zoom-out {
+    top: -10px;
+  }
+}

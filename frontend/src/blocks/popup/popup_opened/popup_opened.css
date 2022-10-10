@@ -1,0 +1,6 @@
+.popup_opened {
+  display: flex;
+  /* smooth */
+  opacity: 1;
+  height: auto;
+}

@@ -1,0 +1,22 @@
+.footer__copyright {
+  /* offsets */
+  margin: 0;
+  padding: 0;
+  margin-top: 66px;
+  margin-bottom: 60px;
+  /* decoration */
+  color: var(--gray);
+  /* fonts */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__copyright {
+    margin-top: 48px;
+    margin-bottom: 36px;
+    padding: 0 19px;
+  }
+}

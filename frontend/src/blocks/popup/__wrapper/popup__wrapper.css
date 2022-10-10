@@ -1,0 +1,16 @@
+.popup__wrapper {
+  height: 258px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 33px 36px 38px 36px;
+}
+
+@media screen and (max-width: 767px) {
+  .popup__wrapper {
+    height: 272px;
+
+    margin: 25px 22px 25px 22px;
+  }
+}

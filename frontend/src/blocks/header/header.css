@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  /* size */
+  height: 73px;
+  max-width: 880px;
+  /* offsets */
+  margin: 0 auto;
+  padding-top: 45px;
+  border-bottom: 1px solid var(--gray);
+  /* smooth */
+  transition: 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 1023px) {
+  .header {
+    /* size */
+    height: 55px;
+    /* offsets */
+    padding: 28px;
+    padding-bottom: 0;
+  }
+}

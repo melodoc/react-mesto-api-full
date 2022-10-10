@@ -1,0 +1,7 @@
+.card {
+  position: relative;
+  background-color: var(--white);
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-bottom: 3px;
+}

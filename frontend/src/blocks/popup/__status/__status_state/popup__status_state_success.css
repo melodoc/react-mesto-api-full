@@ -1,0 +1,4 @@
+.popup__status_state_success {
+  background: url('../../../../images/icon/success.svg') no-repeat
+    center;
+}
