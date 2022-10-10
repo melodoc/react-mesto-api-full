@@ -1,0 +1,20 @@
+.entry__input {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 7px;
+  /* font */
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* decoration */
+  color: var(--light-input);
+  width: 100%;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid var(--light-input);
+}
+
+.entry__input:focus-visible,
+.entry__input:focus {
+  outline: 1px solid var(--light-input);
+}

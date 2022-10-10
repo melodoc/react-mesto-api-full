@@ -1,0 +1,15 @@
+.profile__button_action_add {
+  background: url('../../../images/icon/add.png') no-repeat center;
+  /* size */
+  width: 150px;
+  height: 50px;
+}
+
+@media screen and (max-width: 767px) {
+  .profile__button_action_add {
+    background: url('../../../images/icon/add_small.png') no-repeat
+      center;
+    /* size */
+    width: 282px;
+  }
+}

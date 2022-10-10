@@ -1,0 +1,7 @@
+.popup__label {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  max-width: 358px;
+  color: var(--black);
+}

@@ -1,0 +1,4 @@
+.entry__link_type_redirect,
+.entry__link_type_redirect:visited {
+  color: var(--light-input);
+}

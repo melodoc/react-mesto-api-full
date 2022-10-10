@@ -1,0 +1,6 @@
+.card__description {
+  display: flex;
+  justify-content: space-between;
+  padding: 21px 21px 16px;
+  border-radius: 0 0 10px 10px;
+}

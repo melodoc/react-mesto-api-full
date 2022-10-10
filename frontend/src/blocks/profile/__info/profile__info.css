@@ -1,0 +1,15 @@
+.profile__info {
+  display: grid;
+  grid-template-columns: minmax(200px, 312px) 24px;
+  grid-template-rows: auto;
+  align-items: flex-end;
+  padding-left: 4px;
+}
+
+@media screen and (max-width: 767px) {
+  .profile__info {
+    grid-template-columns: minmax(200px, 210px) 18px;
+    padding-left: 16px;
+    margin-bottom: 30px;
+  }
+}

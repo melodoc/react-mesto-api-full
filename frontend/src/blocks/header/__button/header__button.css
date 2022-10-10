@@ -1,0 +1,17 @@
+.header__button {
+  padding-top: 6px;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.29;
+  text-align: right;
+  color: var(--white);
+  text-decoration: none;
+  transition: 0.5s ease-in-out;
+}
+
+.header__button:hover,
+.header__button:focus {
+  cursor: pointer;
+  opacity: var(--hover-opacity);
+}

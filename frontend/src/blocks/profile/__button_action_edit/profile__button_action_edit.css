@@ -1,0 +1,18 @@
+.profile__button_action_edit {
+  background: url('../../../images/icon/pencil.png') no-repeat center;
+  /* size */
+  width: 24px;
+  height: 24px;
+  /* offset */
+  margin-top: 19px;
+}
+
+@media screen and (max-width: 767px) {
+  .profile__button_action_edit {
+    width: 18px;
+    height: 18px;
+    /* offset */
+    margin-bottom: 8px;
+    margin-top: 0;
+  }
+}

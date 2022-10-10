@@ -1,0 +1,17 @@
+.popup__button {
+  align-self: center;
+  /* offsets */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* decoration */
+  background-color: transparent;
+  border: none;
+  /* smooth */
+  transition: 0.5s ease-in-out;
+}
+
+.popup__button:hover {
+  cursor: pointer;
+  opacity: var(--hover-opacity);
+}

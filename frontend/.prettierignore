@@ -1,0 +1,16 @@
+*.yaml
+*.json
+*.md
+.gitlab-ci.yml
+package.json
+package-lock.json
+postcss.config.js
+stylelint.config.js
+jest.config.js
+config-overrides.js
+tsconfig.json
+src/assets
+parcel/index.html
+public/index.html
+public/spa_config.js
+script/test/setupTests.js
