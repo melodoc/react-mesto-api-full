@@ -10,6 +10,7 @@ const commonError = require('./middlewares/common-error');
 const NotFoundError = require('./errors/not-found-err');
 const { HTTP_RESPONSE } = require('./constants/errors');
 const { requestLogger, errorLogger } = require('./middlewares/logger');
+const { cors } = require('./middlewares/cors');
 
 const { PORT = 3000 } = process.env;
 
@@ -19,6 +20,8 @@ const app = express();
 app.use(bodyParser.json());
 // for receiving web pages inside a POST request
 app.use(bodyParser.urlencoded({ extended: true }));
+
+app.use(cors);
 
 mongoose.connect('mongodb://localhost:27017/mestodb', {
   useNewUrlParser: true,
