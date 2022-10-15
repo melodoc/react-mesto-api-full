@@ -16,7 +16,7 @@ class BaseApi {
   _fetchHandle(method, path, options) {
     return fetch(`${this.baseUrl}${path}`, {
       method,
-      headers: this.headers,
+      headers: {...this.headers, Authorization: `Bearer ${localStorage.getItem('token')}`},
       body: JSON.stringify(options)
     }).then((res) => {
       if (res.ok) {

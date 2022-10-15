@@ -104,7 +104,7 @@ export function Layout({ loggedIn }) {
   };
 
   const handleCardLike = (card) => {
-    const isLiked = card.likes.some((i) => i._id === currentUser._id);
+    const isLiked = card.likes.some((like) => like === currentUser._id);
 
     apiClient
       .changeLikeCardStatus(card._id, !isLiked)

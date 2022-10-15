@@ -34,7 +34,7 @@ function App() {
       .checkValidity(token)
       .then((res) => {
         setUserInformation({
-          email: res.data.email,
+          email: res.data?.email,
           loggedIn: true
         });
         setIsTokenValid(true);
