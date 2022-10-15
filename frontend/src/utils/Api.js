@@ -1,4 +1,4 @@
-import { baseRequestParams, authRequestParams } from '../constants';
+import { baseRequestParams } from '../constants';
 
 class BaseApi {
   constructor({ baseUrl, headers }) {
@@ -125,4 +125,4 @@ class AuthApi extends BaseApi {
 
 export const apiClient = new Api(baseRequestParams);
 
-export const authApiClient = new AuthApi(authRequestParams);
+export const authApiClient = new AuthApi(baseRequestParams);
