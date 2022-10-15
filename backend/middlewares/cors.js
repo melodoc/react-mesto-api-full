@@ -2,8 +2,9 @@ const allowedCors = [
   'https://praktikum.tk',
   'http://praktikum.tk',
   'localhost:3000',
-  'http://localhost:3000/',
-  'http://melodoc.nomoredomains.icu/',
+  'http://localhost:3000',
+  'http://melodoc.nomoredomains.icu',
+  'https://melodoc.nomoredomains.icu',
   'melodoc.nomoredomains.icu/',
 ];
 
